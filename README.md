@@ -27,7 +27,7 @@
 
 1. Run this as a normal user on the controller node - setup Calico as the Network agent
     - `./setup-calico.sh`
-    - run `get status -A` and wait until all `Running`
+    - run `kubectl get all -A` and wait until all `Running`
 
 1. Run the `kubeadm join ...` command, you saved from step 4 on each worker node as `root`
 
