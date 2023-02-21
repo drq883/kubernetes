@@ -10,7 +10,7 @@ Clone the repo to each host (as a normal user is ok)
 - `git clone https://github.com/drq883/kubernetes.git`
 
 As `root`, cd to the cloned repo and run these commands on `all` nodes
-- `./setup-containers.sh`
+- `./setup-container.sh`
 - `./setup-kubetools.sh`
 
 As `root` on the controller node run:
